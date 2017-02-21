@@ -3,7 +3,8 @@
 import requests
 from bs4 import BeautifulSoup as bs
 import re
-from BaikeSpider import url_manager, html_downloader, html_parser, html_outputer
+import url_manager,html_outputer,html_parser,html_downloader
+# from BaikeSpider import url_manager, html_downloader, html_parser, html_outputer
 
 
 start_url = 'http://baike.baidu.com/link?url=ApeeWWd1n_liyZMLKDPkbpa8rzEX6vMRZJ31I4U8FT3XoFd1xZiZyLT7Orm_AMIZQ_sM3XTKGJws5mnhEujgeq'
